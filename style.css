@@ -1,0 +1,184 @@
+*{
+margin:0;
+padding:0;
+}
+
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-right: 20px;
+}
+
+
+header {
+    width: 100%;
+    font-size: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+header a{
+    text-decoration: none;
+    color:grey;
+
+}
+
+nav {
+    display: block;
+}
+
+#left-side {
+    float: left;
+    
+}
+
+#right-side {
+    float: right;
+
+}
+
+.top-texts {
+    margin:  0 15px;
+
+}
+
+#appicon{
+    cursor: pointer;
+    opacity: 0.5;
+    vertical-align: middle;
+}
+
+
+#sign-in{
+    color: white;
+    background:hsl(240, 50%, 60%);
+    border: none;
+    height: 30px;
+    width: 70px;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+}
+
+
+#google {
+    width: 275px;
+    height: 100px;
+    display: block;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+#searchbar {
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 50px;
+    display: block;
+}
+
+input {
+    font-size: 16px;
+    height: 36px;
+    width: 460px;
+    border-radius: 25px;
+    padding: 3px;
+    padding-left: 50px ;
+    display: inline-block;
+    cursor: text;
+
+}
+
+
+#mic{
+    position: relative;
+    top: 5px;
+    right: 75px;
+    height: 20px;
+    
+}
+
+#mag {
+    position: relative;
+    top: 10px;
+    right: 500px;
+    height: 30px;
+    width: 30px;
+}
+
+.button{
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#button1{
+    width: 120px;
+    height: 36px;
+    border:hidden;
+    border-radius: 4px;
+    color: hsl(240, 4%, 54%);
+    margin-right: 8px;
+}
+
+#button2{
+    width: 140px;
+    height: 36px;
+    border: hidden;
+    border-radius: 4px;
+    color: hsl(240, 4%, 54%);
+}
+
+p{
+    font-size: small;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+footer{
+    width: 100vw;
+    background-color: #f2f2f2;
+    padding-left: 5px;
+    line-height: 40px;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+}
+
+#country {
+    display: block;
+    margin-left: 13px;
+    color: #4b4d50;
+}
+
+
+#footer-left{
+    float: left;
+}
+
+#footer-right {
+    float: right;
+    margin-right: 25px;
+
+
+}
+
+.footer {
+    color: #4b4d50;
+}
+
+nav a {
+    color: black;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    font-size: 13px;
+}
+
+
+
+
+
